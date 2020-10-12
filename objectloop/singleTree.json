@@ -1,0 +1,147 @@
+rootObj = {
+  node: root,
+  children: [
+  {
+    node: 'Consignment',
+    children: [{
+      node: 'Warehouse',
+      name: 'warehouse',
+      children: []
+    }]
+  },
+  {
+    node: 'Address',
+    children: [{
+      node: 'Title',
+      name: 'title',
+      children: []
+    }]
+  },
+  {
+    node: 'Warehouse',
+    children: [{
+      node: 'PointOfService',
+      name: 'pointsOfService',
+      children: []
+    }]
+  },
+  {
+    node: 'Order',
+    children: [{
+      node: 'Consignment',
+      name: 'consignments',
+      children: []
+    }],
+  },
+  {
+    node: 'PointOfService',
+    children: [{
+      node: 'Address',
+      name: 'address',
+      children: []
+    }]
+  },
+  {
+    node: 'AbstractOrderEntry',
+    children: [{
+      node: 'Product',
+      name: 'product',
+      children: []
+    }]
+  }]
+}
+
+const codeOutput = {
+  "node": "root",
+  "children": [
+      {
+          "node": "Consignment",
+          "children": [
+              {
+                  "node": "Warehouse",
+                  "name": "warehouse",
+                  "children": []
+              },
+              {
+                  "node": "Warehouse1",
+                  "name": "warehouse1",
+                  "children": []
+              }
+          ]
+      },
+      {
+          "node": "Address",
+          "children": [
+              {
+                  "node": "Title",
+                  "name": "title",
+                  "children": []
+              }
+          ]
+      },
+      {
+          "node": "Warehouse",
+          "children": [
+              {
+                  "node": "PointOfService",
+                  "name": "pointsOfService",
+                  "children": []
+              }
+          ]
+      },
+      {
+          "node": "Order",
+          "children": [
+              {
+                  "node": "Consignment",
+                  "name": "consignments",
+                  "children": []
+              }
+          ]
+      },
+      {
+          "node": "PointOfService",
+          "children": [
+              {
+                  "node": "Address",
+                  "name": "address",
+                  "children": []
+              }
+          ]
+      }
+  ]
+};
+
+rootObj = {
+  node: root,
+  children: [{
+    node: 'Order',
+    children: [{
+      node: 'Consignment',
+      name: 'consignments',
+      children: [{
+        node: 'Consignment',
+        children: [{
+          node: 'Warehouse',
+          name: 'warehouse',
+          children: [{
+            node: 'PointOfService',
+            name: 'pointsOfService',
+            children: [{
+              node: 'Address',
+              name: 'address',
+              children: [{
+                node: 'Title',
+                name: 'title',
+                children: []
+              }]
+            }]
+          }]
+        }]
+      }]
+    }]
+  }]
+}
+
+
+

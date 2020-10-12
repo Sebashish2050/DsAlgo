@@ -1,0 +1,208 @@
+{
+  "code": "NarvarOrderexptest",
+  "integrationType": {
+    "code": "INBOUND"
+  },
+  "items": [
+    {
+      "code": "Consignment",
+      "type": {
+        "code": "Consignment"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "warehouse",
+          "attributeDescriptor": {
+            "qualifier": "warehouse",
+            "enclosingType": {
+              "code": "Consignment"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Consignment",
+            "type": {
+              "code": "Consignment"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Warehouse",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "warehouse1",
+          "attributeDescriptor": {
+            "qualifier": "warehouse1",
+            "enclosingType": {
+              "code": "Consignment"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Consignment",
+            "type": {
+              "code": "Consignment"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Warehouse1",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "Address",
+      "type": {
+        "code": "Address"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "title",
+          "attributeDescriptor": {
+            "qualifier": "title",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Title",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "Warehouse",
+      "type": {
+        "code": "Warehouse"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "pointsOfService",
+          "attributeDescriptor": {
+            "qualifier": "pointsOfService",
+            "enclosingType": {
+              "code": "Warehouse"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Warehouse",
+            "type": {
+              "code": "Warehouse"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "PointOfService",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "Order",
+      "type": {
+        "code": "Order"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "root": true,
+      "attributes": [
+        {
+          "attributeName": "consignments",
+          "attributeDescriptor": {
+            "qualifier": "consignments",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Consignment",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "PointOfService",
+      "type": {
+        "code": "PointOfService"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "address",
+          "attributeDescriptor": {
+            "qualifier": "address",
+            "enclosingType": {
+              "code": "PointOfService"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PointOfService",
+            "type": {
+              "code": "PointOfService"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Address",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3901 @@
+{
+  "code": "NarvarOrderexptest",
+  "integrationType": {
+    "code": "INBOUND"
+  },
+  "items": [
+    {
+      "code": "ApparelSizeVariantProduct",
+      "type": {
+        "code": "ApparelSizeVariantProduct"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "style",
+          "attributeDescriptor": {
+            "qualifier": "style",
+            "enclosingType": {
+              "code": "ApparelSizeVariantProduct"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ApparelSizeVariantProduct",
+            "type": {
+              "code": "ApparelSizeVariantProduct"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "size",
+          "attributeDescriptor": {
+            "qualifier": "size",
+            "enclosingType": {
+              "code": "ApparelSizeVariantProduct"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ApparelSizeVariantProduct",
+            "type": {
+              "code": "ApparelSizeVariantProduct"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "baseProduct",
+          "attributeDescriptor": {
+            "qualifier": "baseProduct",
+            "enclosingType": {
+              "code": "ApparelSizeVariantProduct"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ApparelSizeVariantProduct",
+            "type": {
+              "code": "ApparelSizeVariantProduct"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Product",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "Product",
+      "type": {
+        "code": "Product"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "picture",
+          "attributeDescriptor": {
+            "qualifier": "picture",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Media",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "Consignment",
+      "type": {
+        "code": "Consignment"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "trackingID",
+          "attributeDescriptor": {
+            "qualifier": "trackingID",
+            "enclosingType": {
+              "code": "Consignment"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Consignment",
+            "type": {
+              "code": "Consignment"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "carrierDetails",
+          "attributeDescriptor": {
+            "qualifier": "carrierDetails",
+            "enclosingType": {
+              "code": "Consignment"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Consignment",
+            "type": {
+              "code": "Consignment"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Carrier",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "warehouse",
+          "attributeDescriptor": {
+            "qualifier": "warehouse",
+            "enclosingType": {
+              "code": "Consignment"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Consignment",
+            "type": {
+              "code": "Consignment"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Warehouse",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "consignmentEntries",
+          "attributeDescriptor": {
+            "qualifier": "consignmentEntries",
+            "enclosingType": {
+              "code": "Consignment"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Consignment",
+            "type": {
+              "code": "Consignment"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "ConsignmentEntry",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "Consignment"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Consignment",
+            "type": {
+              "code": "Consignment"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "packaginginfos",
+          "attributeDescriptor": {
+            "qualifier": "packaginginfos",
+            "enclosingType": {
+              "code": "Consignment"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Consignment",
+            "type": {
+              "code": "Consignment"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "PackagingInfo",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "shippingDate",
+          "attributeDescriptor": {
+            "qualifier": "shippingDate",
+            "enclosingType": {
+              "code": "Consignment"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Consignment",
+            "type": {
+              "code": "Consignment"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "Catalog",
+      "type": {
+        "code": "Catalog"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "id",
+          "attributeDescriptor": {
+            "qualifier": "id",
+            "enclosingType": {
+              "code": "Catalog"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Catalog",
+            "type": {
+              "code": "Catalog"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "PaymentStatus",
+      "type": {
+        "code": "PaymentStatus"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "PaymentStatus"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PaymentStatus",
+            "type": {
+              "code": "PaymentStatus"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "Vendor",
+      "type": {
+        "code": "Vendor"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "Vendor"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Vendor",
+            "type": {
+              "code": "Vendor"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "name",
+          "attributeDescriptor": {
+            "qualifier": "name",
+            "enclosingType": {
+              "code": "Vendor"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Vendor",
+            "type": {
+              "code": "Vendor"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "DeliveryStatus",
+      "type": {
+        "code": "DeliveryStatus"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "DeliveryStatus"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "DeliveryStatus",
+            "type": {
+              "code": "DeliveryStatus"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "Country",
+      "type": {
+        "code": "Country"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "isocode",
+          "attributeDescriptor": {
+            "qualifier": "isocode",
+            "enclosingType": {
+              "code": "Country"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Country",
+            "type": {
+              "code": "Country"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "name",
+          "attributeDescriptor": {
+            "qualifier": "name",
+            "enclosingType": {
+              "code": "Country"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Country",
+            "type": {
+              "code": "Country"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "BaseSite",
+      "type": {
+        "code": "BaseSite"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "uid",
+          "attributeDescriptor": {
+            "qualifier": "uid",
+            "enclosingType": {
+              "code": "BaseSite"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "BaseSite",
+            "type": {
+              "code": "BaseSite"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "name",
+          "attributeDescriptor": {
+            "qualifier": "name",
+            "enclosingType": {
+              "code": "BaseSite"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "BaseSite",
+            "type": {
+              "code": "BaseSite"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "locale",
+          "attributeDescriptor": {
+            "qualifier": "locale",
+            "enclosingType": {
+              "code": "BaseSite"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "BaseSite",
+            "type": {
+              "code": "BaseSite"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "OrderEntry",
+      "type": {
+        "code": "OrderEntry"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "basePrice",
+          "attributeDescriptor": {
+            "qualifier": "basePrice",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "quantity",
+          "attributeDescriptor": {
+            "qualifier": "quantity",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "totalPrice",
+          "attributeDescriptor": {
+            "qualifier": "totalPrice",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "quantityReturned",
+          "attributeDescriptor": {
+            "qualifier": "quantityReturned",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "quantityPending",
+          "attributeDescriptor": {
+            "qualifier": "quantityPending",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "quantityAllocated",
+          "attributeDescriptor": {
+            "qualifier": "quantityAllocated",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "entryNumber",
+          "attributeDescriptor": {
+            "qualifier": "entryNumber",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "quantityShipped",
+          "attributeDescriptor": {
+            "qualifier": "quantityShipped",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "quantityCancelled",
+          "attributeDescriptor": {
+            "qualifier": "quantityCancelled",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "product",
+          "attributeDescriptor": {
+            "qualifier": "product",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Product",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "quantityUnallocated",
+          "attributeDescriptor": {
+            "qualifier": "quantityUnallocated",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "order",
+          "attributeDescriptor": {
+            "qualifier": "order",
+            "enclosingType": {
+              "code": "OrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderEntry",
+            "type": {
+              "code": "OrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Order",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "Region",
+      "type": {
+        "code": "Region"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "isocode",
+          "attributeDescriptor": {
+            "qualifier": "isocode",
+            "enclosingType": {
+              "code": "Region"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Region",
+            "type": {
+              "code": "Region"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "country",
+          "attributeDescriptor": {
+            "qualifier": "country",
+            "enclosingType": {
+              "code": "Region"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Region",
+            "type": {
+              "code": "Region"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Country",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "DeliveryMode",
+      "type": {
+        "code": "DeliveryMode"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "name",
+          "attributeDescriptor": {
+            "qualifier": "name",
+            "enclosingType": {
+              "code": "DeliveryMode"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "DeliveryMode",
+            "type": {
+              "code": "DeliveryMode"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "DeliveryMode"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "DeliveryMode",
+            "type": {
+              "code": "DeliveryMode"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "Currency",
+      "type": {
+        "code": "Currency"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "digits",
+          "attributeDescriptor": {
+            "qualifier": "digits",
+            "enclosingType": {
+              "code": "Currency"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Currency",
+            "type": {
+              "code": "Currency"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "base",
+          "attributeDescriptor": {
+            "qualifier": "base",
+            "enclosingType": {
+              "code": "Currency"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Currency",
+            "type": {
+              "code": "Currency"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "conversion",
+          "attributeDescriptor": {
+            "qualifier": "conversion",
+            "enclosingType": {
+              "code": "Currency"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Currency",
+            "type": {
+              "code": "Currency"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "isocode",
+          "attributeDescriptor": {
+            "qualifier": "isocode",
+            "enclosingType": {
+              "code": "Currency"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Currency",
+            "type": {
+              "code": "Currency"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "AbstractPromotion",
+      "type": {
+        "code": "AbstractPromotion"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "endDate",
+          "attributeDescriptor": {
+            "qualifier": "endDate",
+            "enclosingType": {
+              "code": "AbstractPromotion"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "AbstractPromotion",
+            "type": {
+              "code": "AbstractPromotion"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "title",
+          "attributeDescriptor": {
+            "qualifier": "title",
+            "enclosingType": {
+              "code": "AbstractPromotion"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "AbstractPromotion",
+            "type": {
+              "code": "AbstractPromotion"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "description",
+          "attributeDescriptor": {
+            "qualifier": "description",
+            "enclosingType": {
+              "code": "AbstractPromotion"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "AbstractPromotion",
+            "type": {
+              "code": "AbstractPromotion"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "AbstractPromotion"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "AbstractPromotion",
+            "type": {
+              "code": "AbstractPromotion"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "priority",
+          "attributeDescriptor": {
+            "qualifier": "priority",
+            "enclosingType": {
+              "code": "AbstractPromotion"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "AbstractPromotion",
+            "type": {
+              "code": "AbstractPromotion"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "startDate",
+          "attributeDescriptor": {
+            "qualifier": "startDate",
+            "enclosingType": {
+              "code": "AbstractPromotion"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "AbstractPromotion",
+            "type": {
+              "code": "AbstractPromotion"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "name",
+          "attributeDescriptor": {
+            "qualifier": "name",
+            "enclosingType": {
+              "code": "AbstractPromotion"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "AbstractPromotion",
+            "type": {
+              "code": "AbstractPromotion"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "promotionType",
+          "attributeDescriptor": {
+            "qualifier": "promotionType",
+            "enclosingType": {
+              "code": "AbstractPromotion"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "AbstractPromotion",
+            "type": {
+              "code": "AbstractPromotion"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "Address",
+      "type": {
+        "code": "Address"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "shippingAddress",
+          "attributeDescriptor": {
+            "qualifier": "shippingAddress",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "phone2",
+          "attributeDescriptor": {
+            "qualifier": "phone2",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "cellphone",
+          "attributeDescriptor": {
+            "qualifier": "cellphone",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "title",
+          "attributeDescriptor": {
+            "qualifier": "title",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Title",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "postalcode",
+          "attributeDescriptor": {
+            "qualifier": "postalcode",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "line1",
+          "attributeDescriptor": {
+            "qualifier": "line1",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "billingAddress",
+          "attributeDescriptor": {
+            "qualifier": "billingAddress",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "email",
+          "attributeDescriptor": {
+            "qualifier": "email",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "region",
+          "attributeDescriptor": {
+            "qualifier": "region",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Region",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "country",
+          "attributeDescriptor": {
+            "qualifier": "country",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Country",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "middlename",
+          "attributeDescriptor": {
+            "qualifier": "middlename",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "lastname",
+          "attributeDescriptor": {
+            "qualifier": "lastname",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "middlename2",
+          "attributeDescriptor": {
+            "qualifier": "middlename2",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "phone1",
+          "attributeDescriptor": {
+            "qualifier": "phone1",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "line2",
+          "attributeDescriptor": {
+            "qualifier": "line2",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "streetnumber",
+          "attributeDescriptor": {
+            "qualifier": "streetnumber",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "contactAddress",
+          "attributeDescriptor": {
+            "qualifier": "contactAddress",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "town",
+          "attributeDescriptor": {
+            "qualifier": "town",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "building",
+          "attributeDescriptor": {
+            "qualifier": "building",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "streetname",
+          "attributeDescriptor": {
+            "qualifier": "streetname",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "longitude",
+          "attributeDescriptor": {
+            "qualifier": "longitude",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "firstname",
+          "attributeDescriptor": {
+            "qualifier": "firstname",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "company",
+          "attributeDescriptor": {
+            "qualifier": "company",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "latitude",
+          "attributeDescriptor": {
+            "qualifier": "latitude",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "appartment",
+          "attributeDescriptor": {
+            "qualifier": "appartment",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "district",
+          "attributeDescriptor": {
+            "qualifier": "district",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "pobox",
+          "attributeDescriptor": {
+            "qualifier": "pobox",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "fax",
+          "attributeDescriptor": {
+            "qualifier": "fax",
+            "enclosingType": {
+              "code": "Address"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Address",
+            "type": {
+              "code": "Address"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "Warehouse",
+      "type": {
+        "code": "Warehouse"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "name",
+          "attributeDescriptor": {
+            "qualifier": "name",
+            "enclosingType": {
+              "code": "Warehouse"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Warehouse",
+            "type": {
+              "code": "Warehouse"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "Warehouse"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Warehouse",
+            "type": {
+              "code": "Warehouse"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "pointsOfService",
+          "attributeDescriptor": {
+            "qualifier": "pointsOfService",
+            "enclosingType": {
+              "code": "Warehouse"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Warehouse",
+            "type": {
+              "code": "Warehouse"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "PointOfService",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "vendor",
+          "attributeDescriptor": {
+            "qualifier": "vendor",
+            "enclosingType": {
+              "code": "Warehouse"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Warehouse",
+            "type": {
+              "code": "Warehouse"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Vendor",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "Title",
+      "type": {
+        "code": "Title"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "Title"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Title",
+            "type": {
+              "code": "Title"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "PromotionResult",
+      "type": {
+        "code": "PromotionResult"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "orderCode",
+          "attributeDescriptor": {
+            "qualifier": "orderCode",
+            "enclosingType": {
+              "code": "PromotionResult"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PromotionResult",
+            "type": {
+              "code": "PromotionResult"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "messageFired",
+          "attributeDescriptor": {
+            "qualifier": "messageFired",
+            "enclosingType": {
+              "code": "PromotionResult"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PromotionResult",
+            "type": {
+              "code": "PromotionResult"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "ruleVersion",
+          "attributeDescriptor": {
+            "qualifier": "ruleVersion",
+            "enclosingType": {
+              "code": "PromotionResult"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PromotionResult",
+            "type": {
+              "code": "PromotionResult"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "rulesModuleName",
+          "attributeDescriptor": {
+            "qualifier": "rulesModuleName",
+            "enclosingType": {
+              "code": "PromotionResult"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PromotionResult",
+            "type": {
+              "code": "PromotionResult"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "moduleVersion",
+          "attributeDescriptor": {
+            "qualifier": "moduleVersion",
+            "enclosingType": {
+              "code": "PromotionResult"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PromotionResult",
+            "type": {
+              "code": "PromotionResult"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "promotion",
+          "attributeDescriptor": {
+            "qualifier": "promotion",
+            "enclosingType": {
+              "code": "PromotionResult"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PromotionResult",
+            "type": {
+              "code": "PromotionResult"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "AbstractPromotion",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "ReturnStatus",
+      "type": {
+        "code": "ReturnStatus"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "ReturnStatus"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ReturnStatus",
+            "type": {
+              "code": "ReturnStatus"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "PackagingInfo",
+      "type": {
+        "code": "PackagingInfo"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "weightUnit",
+          "attributeDescriptor": {
+            "qualifier": "weightUnit",
+            "enclosingType": {
+              "code": "PackagingInfo"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PackagingInfo",
+            "type": {
+              "code": "PackagingInfo"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "dimensionUnit",
+          "attributeDescriptor": {
+            "qualifier": "dimensionUnit",
+            "enclosingType": {
+              "code": "PackagingInfo"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PackagingInfo",
+            "type": {
+              "code": "PackagingInfo"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "grossWeight",
+          "attributeDescriptor": {
+            "qualifier": "grossWeight",
+            "enclosingType": {
+              "code": "PackagingInfo"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PackagingInfo",
+            "type": {
+              "code": "PackagingInfo"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "width",
+          "attributeDescriptor": {
+            "qualifier": "width",
+            "enclosingType": {
+              "code": "PackagingInfo"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PackagingInfo",
+            "type": {
+              "code": "PackagingInfo"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "height",
+          "attributeDescriptor": {
+            "qualifier": "height",
+            "enclosingType": {
+              "code": "PackagingInfo"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PackagingInfo",
+            "type": {
+              "code": "PackagingInfo"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "length",
+          "attributeDescriptor": {
+            "qualifier": "length",
+            "enclosingType": {
+              "code": "PackagingInfo"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PackagingInfo",
+            "type": {
+              "code": "PackagingInfo"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "CheckoutPaymentType",
+      "type": {
+        "code": "CheckoutPaymentType"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "CheckoutPaymentType"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "CheckoutPaymentType",
+            "type": {
+              "code": "CheckoutPaymentType"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "Media",
+      "type": {
+        "code": "Media"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "altText",
+          "attributeDescriptor": {
+            "qualifier": "altText",
+            "enclosingType": {
+              "code": "Media"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Media",
+            "type": {
+              "code": "Media"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "URL",
+          "attributeDescriptor": {
+            "qualifier": "URL",
+            "enclosingType": {
+              "code": "Media"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Media",
+            "type": {
+              "code": "Media"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "catalogVersion",
+          "attributeDescriptor": {
+            "qualifier": "catalogVersion",
+            "enclosingType": {
+              "code": "Media"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Media",
+            "type": {
+              "code": "Media"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "CatalogVersion",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "Media"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Media",
+            "type": {
+              "code": "Media"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "URL2",
+          "attributeDescriptor": {
+            "qualifier": "URL2",
+            "enclosingType": {
+              "code": "Media"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Media",
+            "type": {
+              "code": "Media"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "Carrier",
+      "type": {
+        "code": "Carrier"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "Carrier"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Carrier",
+            "type": {
+              "code": "Carrier"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "name",
+          "attributeDescriptor": {
+            "qualifier": "name",
+            "enclosingType": {
+              "code": "Carrier"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Carrier",
+            "type": {
+              "code": "Carrier"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "OrderStatus",
+      "type": {
+        "code": "OrderStatus"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "OrderStatus"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "OrderStatus",
+            "type": {
+              "code": "OrderStatus"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "CatalogVersion",
+      "type": {
+        "code": "CatalogVersion"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "version",
+          "attributeDescriptor": {
+            "qualifier": "version",
+            "enclosingType": {
+              "code": "CatalogVersion"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "CatalogVersion",
+            "type": {
+              "code": "CatalogVersion"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "catalog",
+          "attributeDescriptor": {
+            "qualifier": "catalog",
+            "enclosingType": {
+              "code": "CatalogVersion"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "CatalogVersion",
+            "type": {
+              "code": "CatalogVersion"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Catalog",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "Order",
+      "type": {
+        "code": "Order"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "root": true,
+      "attributes": [
+        {
+          "attributeName": "locale",
+          "attributeDescriptor": {
+            "qualifier": "locale",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "totalPrice",
+          "attributeDescriptor": {
+            "qualifier": "totalPrice",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "name",
+          "attributeDescriptor": {
+            "qualifier": "name",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "paymentMode",
+          "attributeDescriptor": {
+            "qualifier": "paymentMode",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "PaymentMode",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "entries",
+          "attributeDescriptor": {
+            "qualifier": "entries",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "OrderEntry",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "statusInfo",
+          "attributeDescriptor": {
+            "qualifier": "statusInfo",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "date",
+          "attributeDescriptor": {
+            "qualifier": "date",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "deliveryMode",
+          "attributeDescriptor": {
+            "qualifier": "deliveryMode",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "DeliveryMode",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "subtotal",
+          "attributeDescriptor": {
+            "qualifier": "subtotal",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "guid",
+          "attributeDescriptor": {
+            "qualifier": "guid",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "paymentCost",
+          "attributeDescriptor": {
+            "qualifier": "paymentCost",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "statusDisplay",
+          "attributeDescriptor": {
+            "qualifier": "statusDisplay",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "paymentType",
+          "attributeDescriptor": {
+            "qualifier": "paymentType",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "CheckoutPaymentType",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "totalTax",
+          "attributeDescriptor": {
+            "qualifier": "totalTax",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "versionID",
+          "attributeDescriptor": {
+            "qualifier": "versionID",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "totalDiscounts",
+          "attributeDescriptor": {
+            "qualifier": "totalDiscounts",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "paymentStatus",
+          "attributeDescriptor": {
+            "qualifier": "paymentStatus",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "PaymentStatus",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "net",
+          "attributeDescriptor": {
+            "qualifier": "net",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "currency",
+          "attributeDescriptor": {
+            "qualifier": "currency",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Currency",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "deliveryCost",
+          "attributeDescriptor": {
+            "qualifier": "deliveryCost",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "discountsIncludePaymentCost",
+          "attributeDescriptor": {
+            "qualifier": "discountsIncludePaymentCost",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "description",
+          "attributeDescriptor": {
+            "qualifier": "description",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "deliveryStatus",
+          "attributeDescriptor": {
+            "qualifier": "deliveryStatus",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "DeliveryStatus",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "discountsIncludeDeliveryCost",
+          "attributeDescriptor": {
+            "qualifier": "discountsIncludeDeliveryCost",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "deliveryAddress",
+          "attributeDescriptor": {
+            "qualifier": "deliveryAddress",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Address",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "status",
+          "attributeDescriptor": {
+            "qualifier": "status",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "OrderStatus",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "site",
+          "attributeDescriptor": {
+            "qualifier": "site",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "BaseSite",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "purchaseOrderNumber",
+          "attributeDescriptor": {
+            "qualifier": "purchaseOrderNumber",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "returnRequests",
+          "attributeDescriptor": {
+            "qualifier": "returnRequests",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "ReturnRequest",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "user",
+          "attributeDescriptor": {
+            "qualifier": "user",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "User",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "paymentAddress",
+          "attributeDescriptor": {
+            "qualifier": "paymentAddress",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Address",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "appliedCouponCodes",
+          "attributeDescriptor": {
+            "qualifier": "appliedCouponCodes",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "allPromotionResults",
+          "attributeDescriptor": {
+            "qualifier": "allPromotionResults",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "PromotionResult",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "calculated",
+          "attributeDescriptor": {
+            "qualifier": "calculated",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "consignments",
+          "attributeDescriptor": {
+            "qualifier": "consignments",
+            "enclosingType": {
+              "code": "Order"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Order",
+            "type": {
+              "code": "Order"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Consignment",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "ReturnRequest",
+      "type": {
+        "code": "ReturnRequest"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "status",
+          "attributeDescriptor": {
+            "qualifier": "status",
+            "enclosingType": {
+              "code": "ReturnRequest"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ReturnRequest",
+            "type": {
+              "code": "ReturnRequest"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "ReturnStatus",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "currency",
+          "attributeDescriptor": {
+            "qualifier": "currency",
+            "enclosingType": {
+              "code": "ReturnRequest"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ReturnRequest",
+            "type": {
+              "code": "ReturnRequest"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Currency",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "subtotal",
+          "attributeDescriptor": {
+            "qualifier": "subtotal",
+            "enclosingType": {
+              "code": "ReturnRequest"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ReturnRequest",
+            "type": {
+              "code": "ReturnRequest"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "totalTax",
+          "attributeDescriptor": {
+            "qualifier": "totalTax",
+            "enclosingType": {
+              "code": "ReturnRequest"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ReturnRequest",
+            "type": {
+              "code": "ReturnRequest"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "RMA",
+          "attributeDescriptor": {
+            "qualifier": "RMA",
+            "enclosingType": {
+              "code": "ReturnRequest"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ReturnRequest",
+            "type": {
+              "code": "ReturnRequest"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "refundDeliveryCost",
+          "attributeDescriptor": {
+            "qualifier": "refundDeliveryCost",
+            "enclosingType": {
+              "code": "ReturnRequest"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ReturnRequest",
+            "type": {
+              "code": "ReturnRequest"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "ReturnRequest"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ReturnRequest",
+            "type": {
+              "code": "ReturnRequest"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "Category",
+      "type": {
+        "code": "Category"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "name",
+          "attributeDescriptor": {
+            "qualifier": "name",
+            "enclosingType": {
+              "code": "Category"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Category",
+            "type": {
+              "code": "Category"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "catalogVersion",
+          "attributeDescriptor": {
+            "qualifier": "catalogVersion",
+            "enclosingType": {
+              "code": "Category"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Category",
+            "type": {
+              "code": "Category"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "CatalogVersion",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "Category"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Category",
+            "type": {
+              "code": "Category"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "User",
+      "type": {
+        "code": "User"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "uid",
+          "attributeDescriptor": {
+            "qualifier": "uid",
+            "enclosingType": {
+              "code": "User"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "User",
+            "type": {
+              "code": "User"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "addresses",
+          "attributeDescriptor": {
+            "qualifier": "addresses",
+            "enclosingType": {
+              "code": "User"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "User",
+            "type": {
+              "code": "User"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Address",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "PaymentMode",
+      "type": {
+        "code": "PaymentMode"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "PaymentMode"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PaymentMode",
+            "type": {
+              "code": "PaymentMode"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "Product",
+      "type": {
+        "code": "Product"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "picture",
+          "attributeDescriptor": {
+            "qualifier": "picture",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Media",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "manufacturerName",
+          "attributeDescriptor": {
+            "qualifier": "manufacturerName",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "name",
+          "attributeDescriptor": {
+            "qualifier": "name",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "deliveryTime",
+          "attributeDescriptor": {
+            "qualifier": "deliveryTime",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "priceQuantity",
+          "attributeDescriptor": {
+            "qualifier": "priceQuantity",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "description",
+          "attributeDescriptor": {
+            "qualifier": "description",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "catalogVersion",
+          "attributeDescriptor": {
+            "qualifier": "catalogVersion",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "CatalogVersion",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "supercategories",
+          "attributeDescriptor": {
+            "qualifier": "supercategories",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Category",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "ConsignmentEntry",
+      "type": {
+        "code": "ConsignmentEntry"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "shippedQuantity",
+          "attributeDescriptor": {
+            "qualifier": "shippedQuantity",
+            "enclosingType": {
+              "code": "ConsignmentEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ConsignmentEntry",
+            "type": {
+              "code": "ConsignmentEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "quantityDeclined",
+          "attributeDescriptor": {
+            "qualifier": "quantityDeclined",
+            "enclosingType": {
+              "code": "ConsignmentEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ConsignmentEntry",
+            "type": {
+              "code": "ConsignmentEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "orderEntry",
+          "attributeDescriptor": {
+            "qualifier": "orderEntry",
+            "enclosingType": {
+              "code": "ConsignmentEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ConsignmentEntry",
+            "type": {
+              "code": "ConsignmentEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "AbstractOrderEntry",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "quantity",
+          "attributeDescriptor": {
+            "qualifier": "quantity",
+            "enclosingType": {
+              "code": "ConsignmentEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ConsignmentEntry",
+            "type": {
+              "code": "ConsignmentEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "quantityPending",
+          "attributeDescriptor": {
+            "qualifier": "quantityPending",
+            "enclosingType": {
+              "code": "ConsignmentEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ConsignmentEntry",
+            "type": {
+              "code": "ConsignmentEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "quantityShipped",
+          "attributeDescriptor": {
+            "qualifier": "quantityShipped",
+            "enclosingType": {
+              "code": "ConsignmentEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ConsignmentEntry",
+            "type": {
+              "code": "ConsignmentEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "PointOfService",
+      "type": {
+        "code": "PointOfService"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "address",
+          "attributeDescriptor": {
+            "qualifier": "address",
+            "enclosingType": {
+              "code": "PointOfService"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PointOfService",
+            "type": {
+              "code": "PointOfService"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Address",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "latitude",
+          "attributeDescriptor": {
+            "qualifier": "latitude",
+            "enclosingType": {
+              "code": "PointOfService"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PointOfService",
+            "type": {
+              "code": "PointOfService"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "type",
+          "attributeDescriptor": {
+            "qualifier": "type",
+            "enclosingType": {
+              "code": "PointOfService"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PointOfService",
+            "type": {
+              "code": "PointOfService"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "PointOfServiceTypeEnum",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "longitude",
+          "attributeDescriptor": {
+            "qualifier": "longitude",
+            "enclosingType": {
+              "code": "PointOfService"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PointOfService",
+            "type": {
+              "code": "PointOfService"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "name",
+          "attributeDescriptor": {
+            "qualifier": "name",
+            "enclosingType": {
+              "code": "PointOfService"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PointOfService",
+            "type": {
+              "code": "PointOfService"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "PointOfServiceTypeEnum",
+      "type": {
+        "code": "PointOfServiceTypeEnum"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "PointOfServiceTypeEnum"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "PointOfServiceTypeEnum",
+            "type": {
+              "code": "PointOfServiceTypeEnum"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    },
+    {
+      "code": "AbstractOrderEntry",
+      "type": {
+        "code": "AbstractOrderEntry"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "product",
+          "attributeDescriptor": {
+            "qualifier": "product",
+            "enclosingType": {
+              "code": "AbstractOrderEntry"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "AbstractOrderEntry",
+            "type": {
+              "code": "AbstractOrderEntry"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Product",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        }
+      ]
+    }
+  ]
+}

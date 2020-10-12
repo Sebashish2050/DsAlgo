@@ -1,0 +1,133 @@
+{
+  "code": "NarvarOrderexptest",
+  "integrationType": {
+    "code": "INBOUND"
+  },
+  "items": [
+    {
+      "code": "ApparelSizeVariantProduct",
+      "type": {
+        "code": "ApparelSizeVariantProduct"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "style",
+          "attributeDescriptor": {
+            "qualifier": "style",
+            "enclosingType": {
+              "code": "ApparelSizeVariantProduct"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ApparelSizeVariantProduct",
+            "type": {
+              "code": "ApparelSizeVariantProduct"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "size",
+          "attributeDescriptor": {
+            "qualifier": "size",
+            "enclosingType": {
+              "code": "ApparelSizeVariantProduct"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ApparelSizeVariantProduct",
+            "type": {
+              "code": "ApparelSizeVariantProduct"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        },
+        {
+          "attributeName": "baseProduct",
+          "attributeDescriptor": {
+            "qualifier": "baseProduct",
+            "enclosingType": {
+              "code": "ApparelSizeVariantProduct"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "ApparelSizeVariantProduct",
+            "type": {
+              "code": "ApparelSizeVariantProduct"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Product",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "code": "Product",
+      "type": {
+        "code": "Product"
+      },
+      "integrationObject": {
+        "code": "NarvarOrderexptest"
+      },
+      "attributes": [
+        {
+          "attributeName": "code",
+          "attributeDescriptor": {
+            "qualifier": "code",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "unique": true
+        },
+        {
+          "attributeName": "picture",
+          "attributeDescriptor": {
+            "qualifier": "picture",
+            "enclosingType": {
+              "code": "Product"
+            }
+          },
+          "integrationObjectItem": {
+            "code": "Product",
+            "type": {
+              "code": "Product"
+            },
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          },
+          "returnIntegrationObjectItem": {
+            "code": "Media",
+            "integrationObject": {
+              "code": "NarvarOrderexptest"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
